@@ -1,0 +1,32 @@
+/* Main stylesheet */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Slab');
+
+/*
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Roboto Mono', monospace;
+
+*/
+
+
+* {
+    font-size: 1.2em;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.font-sans-serif {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.font-serif {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.font-monospace {
+    font-family: 'Roboto Mono', monospace;
+}
+

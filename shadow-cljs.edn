@@ -1,0 +1,22 @@
+{:source-paths ["src"]
+
+ :dependencies [[cider/cider-nrepl "0.17.0"]
+                [hiccups "0.3.0"]
+                [reagent "0.8.1"]]
+
+ :builds {:browser
+          {:id :browser
+           :target :browser
+           :output-dir "public/js/compiled"
+           :asset-path "/js/compiled"
+           :modules {:main {:entries [rc.browser.app]}}
+           :devtools {:watch-dir "public"}}
+
+          :app
+          {:id :app
+           :target :node-script
+           :main rc.main/main
+           :output-to "out/index.js"
+           :devtools {:before-load-async rc.main/stop
+                      :after-load rc.main/start
+                      :watch-dir "public"}}}}
