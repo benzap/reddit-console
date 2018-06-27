@@ -16,13 +16,10 @@
 
    #+BEGIN_SRC sh
 
-   # First Terminal, watch/compile the backend
-   shadow-cljs watch app
+   # First Terminal, watch/compile the frontend and backend
+   shadow-cljs watch app browser
 
    # Second Terminal, run the node web server
    node out/index.js
-
-   # Third Terminal, watch/compile the frontend
-   shadow-cljs watch browser
 
    #+END_SRC
