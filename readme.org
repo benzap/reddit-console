@@ -6,3 +6,23 @@
 #+OPTIONS: H:2 num:t toc:t \n:nil ::t |:t ^:t f:t tex:t
 
 /nothing here yet/
+
+
+* Development
+  - requires shadow-cljs: ~npm install -g shadow-cljs~
+  - requires java JDK 8
+
+** Commandline Execution
+
+   #+BEGIN_SRC sh
+
+   # First Terminal, watch/compile the backend
+   shadow-cljs watch app
+
+   # Second Terminal, run the node web server
+   node out/index.js
+
+   # Third Terminal, watch/compile the frontend
+   shadow-cljs watch browser
+
+   #+END_SRC
