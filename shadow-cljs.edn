@@ -2,7 +2,9 @@
 
  :dependencies [[cider/cider-nrepl "0.17.0"]
                 [hiccups "0.3.0"]
-                [reagent "0.8.1"]]
+                [reagent "0.8.1" :exclusions [cljsjs/react]]
+                [re-frame "0.10.5"]
+                [datascript "0.16.6"]]
 
  :builds {:browser
           {:id :browser

@@ -1,3 +1,6 @@
-(ns rc.browser.app)
+(ns rc.browser.app
+  (:require
+   [reagent.core :as r]))
 
-(.log js/console "Hello World!")
+
+(.log js/console "Hello World!!")
