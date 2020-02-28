@@ -20,5 +20,5 @@
            :main rc.main/main
            :output-to "out/index.js"
            :devtools {:before-load-async rc.main/stop
-                      :after-load rc.main/start
-                      :watch-dir "public"}}}}
+                      :after-load rc.main/start}}}}
+
