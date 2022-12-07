@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "create-react-class": "^15.6.3",
-    "express": "^4.16.3",
+    "express": "^4.18.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-dom-server": "0.0.5"
